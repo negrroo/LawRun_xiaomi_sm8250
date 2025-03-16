@@ -590,6 +590,13 @@ CONFIG_ARM_QCOM_CPUFREQ_HW=y
 # CONFIG_QORIQ_CPUFREQ is not set
 
 #
+# KernelSU
+#
+CONFIG_KSU=y
+# CONFIG_KSU_DEBUG is not set
+# CONFIG_KSU_ALLOWLIST_WORKAROUND is not set
+
+#
 # Firmware Drivers
 #
 CONFIG_ARM_PSCI_FW=y
